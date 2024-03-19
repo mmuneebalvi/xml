@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<muneeb xmlns:a="www.muneeeb.com" xmlns:b="www.muneeeb.com">
+<user id="1" >
+<a:name>muneeb</a:name>
+<a:city>karachi</a:city>
+</user>
+
+<user id="2" >
+<b:name>taha</b:name>
+<b:city>karachi</b:city>
+</user>
+
+<user id="3">
+<name>rafay</name>
+<city>karachi</city>
+</user>
+
+<user id="4">
+<name>ali</name>
+<city>karachi</city>
+</user>
+
+<user id="5">
+<name>ahmed</name>
+<city>karachi</city>
+</user>
+
+<user id="6">
+<name>yahya</name>
+<city>karachi</city>
+</user>
+
+</muneeb>
