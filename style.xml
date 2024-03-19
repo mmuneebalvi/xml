@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"?>
+
+<xsl:template match="/">
+<html>
+<head>
+<title>TABLE</title>
+<style>
+body{
+    background-color:yellow;
+}
+table{
+  width:1000px;
+}
+th{
+    background-color:grey;
+    color:white;
+}
+td{
+    text-align:center;
+    color:white;
+}
+
+
+</style>
+</head>
+<body>
+<table border="2">
+<tr>
+<th>id</th>
+<th>name</th>
+<th>age</th>
+<th>city</th>
+<th>email</th>
+</tr>
+<xml:for-each select="persondata/user">
+<tr>
+<td><xml:value-of select="@id"/></td>
+<td><xml:value-of select="name"/></td>
+<td><xml:value-of select="age"/></td>
+<td><xml:value-of select="city"/></td>
+<td><xml:value-of select="email"/></td>
+</tr>
+<xml:for-each>
+</table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
